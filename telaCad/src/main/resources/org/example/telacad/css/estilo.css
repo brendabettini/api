@@ -1,0 +1,64 @@
+.root-pane {
+    -fx-background-color: #027313;
+}
+
+/* Painéis centrais */
+.center-frame {
+    -fx-background-color: white;
+    -fx-border-color: #025920;
+    -fx-border-radius: 2em;
+    -fx-background-radius: 2em;
+    -fx-padding: 2%;
+}
+.center-backdrop {
+    -fx-background-color: #025920;
+    -fx-background-radius: 2em;
+}
+
+/* Menu lateral */
+.left-frame {
+    -fx-background-color: white;
+    -fx-border-color: #025920;
+    -fx-border-radius: 2em;
+    -fx-background-radius: 2em;
+    -fx-padding: 2%;
+}
+.left-backdrop {
+    -fx-background-color: #025920;
+    -fx-background-radius: 2em;
+}
+
+/* Imagens */
+.image-view {
+    -fx-padding: 2%;
+    -fx-fit-width: 80%;
+    -fx-fit-height: 20%;
+}
+
+/* Texto */
+.label-aluno {
+    -fx-font-size: 2em;  /* escala relativa */
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+.label-professor {
+    -fx-font-size: 2em;  /* escala relativa */
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+
+/* Botão VOLTAR */
+.button-back {
+    -fx-background-color: #025920;
+    -fx-background-radius: 0.5em;
+    -fx-text-fill: white;
+    -fx-font-family: "Comic Sans MS", System;
+    -fx-font-size: 1em;
+    -fx-padding: 1em 2em;
+    -fx-cursor: hand;
+}
+.button-back:hover {
+    -fx-background-color:#52BF04;
+}

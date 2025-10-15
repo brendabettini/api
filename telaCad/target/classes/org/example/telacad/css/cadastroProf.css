@@ -1,0 +1,167 @@
+/* Fundo principal da janela */
+.main-container {
+    -fx-background-color: #027313; /* Verde escuro */
+}
+
+/* Estilo base para os dois painéis brancos */
+.card {
+    -fx-background-color: #F8F9FA; /* Branco levemente acinzentado */
+    -fx-background-radius: 25;
+    -fx-effect: dropshadow(gaussian, #025920, 2, 0, -8, 8);
+}
+
+/* Estilo para os títulos dos painéis */
+.title {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Estilo para as labels dos campos do formulário */
+.label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 13px;
+    -fx-text-fill: #555;
+}
+
+/* Estilo para os campos de texto e senha */
+.text-field, .password-field {
+    -fx-background-color: #E9ECEF;
+    -fx-background-radius: 8;
+    -fx-border-color: transparent;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+}
+
+/* Estilo para o texto de placeholder nos campos */
+.text-field:prompt-text, .password-field:prompt-text {
+    -fx-text-fill: #6C757D;
+}
+
+/* Estilo do botão de cadastro */
+.submit-button {
+    -fx-background-color: #212529; /* Preto/Cinza escuro */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    /* A linha -fx-pref-width: 2000px; FOI REMOVIDA DAQUI */
+}
+
+.submit-button:hover {
+    -fx-background-color:#52BF04;
+}
+
+
+/* --- PAINEL DIREITO --- */
+
+/* Estilo para o BOTÃO de professor na lista */
+.professor-button {
+    -fx-background-color: #E9ECEF;
+    -fx-background-radius: 20;
+    -fx-padding: 20px 23px;
+    -fx-alignment: center-left;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-pref-width: 220px;
+    /* A linha -fx-pref-width: 2000px; FOI REMOVIDA DAQUI */
+}
+
+/* Efeito ao passar o mouse sobre o botão do professor */
+.professor-button:hover {
+    -fx-background-color: #DDE1E4;
+}
+
+/* Ícone de perfil genérico (círculo) */
+.profile-icon {
+    -fx-fill: #ADB5BD;
+     /* Cor do ícone */
+}
+
+/* ScrollPane transparente */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+/* Ícone de filtro (usei a letra 'Y' como placeholder para o símbolo) */
+.filter-icon {
+    -fx-font-family: "Arial";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6C757D;
+    -fx-alignment: bottom-left;
+}
+
+/* Botão voltar (exemplo de estilo) */
+.back-button {
+    -fx-background-color: #025920;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 6px 28px;
+    -fx-cursor: hand;
+}
+
+.back-button:hover {
+    -fx-background-color:#52BF04;
+}
+
+.professor-button .label {
+    -fx-font-size: 15px;
+    -fx-font-weight: regular;
+    -fx-text-fill: #333;
+}
+
+.ok-button {
+    -fx-background-color: black; 
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 6px 28px;
+}
+.ok-button:hover{
+    -fx-background-color:#52BF04;
+
+}
+
+.field-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-label-padding: 0 0 5 0;
+}
+
+/* -------------------------
+   Campos de texto e o botão de curso
+--------------------------*/
+.text-field {
+    -fx-background-color: #efefef;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-pref-height: 32;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #888888;
+    -fx-padding: 0 8 0 8;
+    -fx-alignment: center-left; /* Garante que o texto comece à esquerda */
+}
+
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 15, 0, 0, 5);
+}
+
+.ok-button{
+    -fx-background-color: black; 
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+.ok-button:hover{
+    -fx-background-color:#52BF04;
+}

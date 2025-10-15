@@ -1,0 +1,4 @@
+--patch-module
+org.example.telacad=_
+--add-reads
+org.example.telacad=ALL-UNNAMED
