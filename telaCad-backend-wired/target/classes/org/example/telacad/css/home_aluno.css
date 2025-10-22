@@ -1,0 +1,140 @@
+/* Estilo geral da aplicação */
+.root {
+    -fx-background-color: #027313;
+    -fx-font-family: 'Segoe UI', 'System-ui', sans-serif;
+}
+
+/* Painel de navegação esquerdo */
+.nav-panel {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, #025920, 2, 0, -8, 8);
+    -fx-padding: 15px;
+}
+
+/* Nome do professor no painel de navegação */
+.professor-name { /* Note: O FXML usa essa classe para o Aluno também */
+    -fx-font-weight: bold;
+}
+
+/* Botões do painel de navegação */
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+/* Ícones dentro dos botões de navegação */
+.nav-icon {
+    -fx-fill: #808080;
+}
+
+/* Efeito hover para os ícones dos botões de navegação */
+.nav-button:hover .nav-icon {
+    -fx-fill: #0E8D43;
+}
+
+/* Painel principal de conteúdo (o quadrado branco grande) */
+.main-content-panel {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+    -fx-effect: dropshadow(gaussian, #025920, 2, 0, -8, 8);
+    -fx-padding: 20px; /* Adiciona padding interno */
+}
+
+/* Estilo do botão VOLTAR */
+.btn-voltar {
+    -fx-background-color: rgba(0, 0, 0, 0.4); /* Preto com 40% de opacidade */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-pref-width: 100px;
+}
+
+/* Efeito hover para o botão VOLTAR */
+.btn-voltar:hover {
+    -fx-background-color: #52BF04;/* Verde no hover */
+}
+
+/* ======================================== */
+/* === NOVOS ESTILOS POP-UP DOCUMENTOS === */
+/* ======================================== */
+.dialog-pane {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 15, 0.5, 0, 0);
+    -fx-padding: 0;
+}
+
+.popup-header-style {
+    -fx-background-color: #F5F5F5;
+    -fx-background-radius: 15 15 0 0;
+    -fx-border-color: transparent transparent #E0E0E0 transparent;
+    -fx-border-width: 1px;
+}
+
+.dialog-title-style {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.popup-close-button-style {
+    -fx-background-color: transparent;
+    -fx-padding: 4px 8px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+.popup-close-button-style:hover {
+    -fx-background-color: #E0E0E0;
+    -fx-background-radius: 50%;
+}
+
+.document-list-style {
+    -fx-spacing: 8px;
+}
+
+.document-item-style {
+    -fx-padding: 8px 12px;
+    -fx-background-color: #FAFAFA;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-border-color: #EEEEEE;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8;
+}
+
+.document-item-style:hover {
+    -fx-background-color: #F0F0F0;
+}
+
+.document-icon-style {
+    -fx-fill: #555555;
+    -fx-scale-x: 0.8;
+    -fx-scale-y: 0.8;
+}
+
+.document-name-style {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+.empty-label-style {
+    -fx-font-size: 14px;
+    -fx-text-fill: #808080;
+    -fx-alignment: center;
+}
+
+.transparent-scroll-style {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.transparent-scroll-style .viewport { -fx-background-color: transparent; }
+.transparent-scroll-style .content { -fx-background-color: transparent; }
